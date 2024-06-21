@@ -20,5 +20,5 @@ let isLoggedIn = false // boolen
 
 //Object
 
-console.log(typeof null); // Object
-console.log(typeof undefined);// undifined
+console.log(typeof null); // Object 
+console.log(typeof undefined);// undifined 
