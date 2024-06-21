@@ -55,4 +55,5 @@ let str3 = str1+str2
 
 let gameNumber =  100 
 ++gameNumber;
+
 console.log(gameNumber);
