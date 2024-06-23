@@ -39,11 +39,14 @@ console.log(typeof(myfun));
 
 // Stack(Primitive) and Heap (Non Primitive)
 
+
+// Stack
 let myYoutubeName = "AbhiName"
 
 let anotherName = myYoutubeName
 anotherName= "code"
 
+//Heap 
 console.log(anotherName);
 console.log(myYoutubeName);
 
