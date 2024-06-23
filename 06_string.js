@@ -25,3 +25,5 @@ console.log(url.replace('%20','-'))
 console.log(url.includes('hitisj'));
 
 console.log(gameName.split('-'));
+console.log(gameName.italics());
+console.log(gameName.padEnd(20,'a'));
