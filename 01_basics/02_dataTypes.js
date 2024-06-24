@@ -1,6 +1,6 @@
 "Use Strict" // treat all JS Code as newer version
 // alert(3+3) // We are using Node Js, not browser 
-console.log(3+3); //here we are use in node js      
+// console.log(3+3); //here we are use in node js      
 
 let name = "Abhi" // String
 let age = 22 // Number
@@ -20,5 +20,5 @@ let isLoggedIn = false // boolen
 
 //Object
 
-console.log(typeof null); // Object 
-console.log(typeof undefined);// undifined 
+// console.log(typeof null); // Object 
+// console.log(typeof undefined);// undifined 

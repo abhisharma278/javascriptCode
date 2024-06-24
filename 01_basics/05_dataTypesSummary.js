@@ -11,10 +11,10 @@ const userEmail = undefined;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 const bigNumber = 43545456654n;
 
-console.log(typeof(bigNumber));
+// console.log(typeof(bigNumber));
 //Refernce (non Primitive)
 
 //Array , Object , Functions
@@ -29,11 +29,11 @@ let myObj =
 }
 
 const myfun = function(){
-    console.log("Hello World");
+    // console.log("Hello World");
 }
 //Check
 
-console.log(typeof(myfun)); 
+// console.log(typeof(myfun)); 
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
@@ -47,8 +47,8 @@ let anotherName = myYoutubeName
 anotherName= "code"
 
 //Heap 
-console.log(anotherName);
-console.log(myYoutubeName);
+// console.log(anotherName);
+// console.log(myYoutubeName);
 
 let userone = {
     email : "sharma@gmikl.com",
@@ -57,5 +57,5 @@ let userone = {
 
 let usertwo = userone;
 usertwo.email = "hello.com"
-console.log(userone.email);
-console.log(usertwo.email);
+// console.log(userone.email);
+// console.log(usertwo.email);

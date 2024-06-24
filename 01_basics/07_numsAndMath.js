@@ -1,10 +1,10 @@
 
 
 const score = 100;
-console.log(score);
+// console.log(score);
 
 const balance = new Number(100.57)
-console.log(balance);
+// console.log(balance);
 
 //Convert Number TO String
 
@@ -15,7 +15,7 @@ console.log(balance);
 
 // COnvert Number to Fixed
 
-console.log(balance.toFixed(1));
+// console.log(balance.toFixed(1));
 
 
 // It is Use in Decimal Number
@@ -29,17 +29,17 @@ console.log(hundreds.toLocaleString('en-IN'));
 
 ////////////////////////////////MATHs///////////////////////////////////////
 
-console.log(Math);
+// console.log(Math);
 
-console.log(Math.abs(-4));
-console.log(Math.floor(4.6));
-console.log(Math.ceil(4.6));
-console.log(Math.min(1.4,6,7));
-console.log(Math.max(1.4,6,7));
-console.log(Math.random());
-console.log((Math.random()*10)+1);
+// console.log(Math.abs(-4));
+// console.log(Math.floor(4.6));
+// console.log(Math.ceil(4.6));
+// console.log(Math.min(1.4,6,7));
+// console.log(Math.max(1.4,6,7));
+// console.log(Math.random());
+// console.log((Math.random()*10)+1);
 
 
 const max = 40, min = 20
-console.log(Math.floor((Math.random() * (max-min + 1)) + min));
+// console.log(Math.floor((Math.random() * (max-min + 1)) + min));
 
