@@ -46,10 +46,42 @@ const users = [
         email : "admin@gma.co"
     }
 ]
-console.log(users[1].email);
+// console.log(users[1].email);
 // console.log(tinderUsers);
-console.log(Object.keys(tinderUsers));
-console.log(Object.values(tinderUsers));
-console.log(Object.entries(tinderUsers));
+// console.log(Object.keys(tinderUsers));
+// console.log(Object.values(tinderUsers));
+// console.log(Object.entries(tinderUsers));
 
-console.log(tinderUsers.hasOwnProperty('isLoggedin'));
+// console.log(tinderUsers.hasOwnProperty('isLoggedin'));
+
+const course = {
+    courseName  : "JavaScript",
+    coursePrice : 999, 
+    courseTeacher : "Hitish"
+}
+
+// console.log(course);
+
+const {courseName :name} = course;
+console.log(name);
+
+// For Exxample
+
+// const navabar = ({company}) => {
+
+// }
+// navabar(company = 'Abhi')
+
+// {
+//     "name ": "Abhi",
+//     "courseName" :  "Javascript" 
+// }
+
+// {
+//     [
+
+//     ]
+//     [
+
+//     ]
+// }
