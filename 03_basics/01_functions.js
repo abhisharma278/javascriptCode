@@ -25,3 +25,42 @@ function loginUserMessage(username ="Sam"){
 
 const showMessage = loginUserMessage()
 // console.log(showMessage);
+
+///////////////////////////////////Calculate Cart Price /////////////////////////////
+
+function calculateCartPrice(val1,...num1){
+    return num1
+}
+
+const cartValue = calculateCartPrice(200,400,600)
+// console.log(cartValue);
+
+const user ={
+        userName:"Abhi",
+        price :199  
+}
+const anotherUser = {
+        userName: "Ramesh",
+        price : 200
+}
+function handleObjects(anyobjects){
+        console.log(`USerName is ${anyobjects.userName} and price is ${anyobjects.price}`);
+}
+
+// handleObject(anotherUser)
+
+// handleObjects({
+//     userName : "Pinnak",
+//     price : 100
+// })
+
+const newArray = [100,200,300,400]
+function  returnSecondValue(getArray){
+    return getArray;
+}
+
+// console.log(returnSecondValue(newArray));
+
+// console.log(returnSecondValue([
+//     200,400,900
+// ]));
