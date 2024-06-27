@@ -35,6 +35,8 @@ if (true) {
 
 ///////////////////////////////another Example
 
+//Hoisting
+
 console.log( addOne(5)); // This is Exacuate
 
 function addOne(num){
