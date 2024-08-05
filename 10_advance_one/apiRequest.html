@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+    }
+    .card {
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 300px;
+    }
+    .card img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+    .card h2 {
+        margin: 10px 0;
+    }
+    .card p {
+        color: #666;
+        font-size: 14px;
+    }
+</style>
+</head>
+<body>
+<div class="card" id="userCard">
+    <img src="" alt="User Photo" id="userPhoto">
+    <h2 id="userName"></h2>
+    <p>Followers: <span id="userFollowers"></span></p>
+</div>
+
+<script>
+    const api = "https://api.github.com/users/hiteshchoudhary";
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', api);
+        xhr.onload = function() {
+            if (xhr.status >= 200 && xhr.status < 300) {
+                const data =JSON.parse(this.responseText)
+                console.log(typeof data); 
+                document.getElementById('userPhoto').src = data.avatar_url;
+                document.getElementById('userName').textContent = data.name || data.login;
+                document.getElementById('userFollowers').textContent = data.followers;
+            } else {
+                console.log('Request failed. Status:', xhr.status);
+            }
+        };
+        
+        xhr.onerror = function() {
+            console.log('Request failed. Please check your network connection.');
+        };
+        
+        xhr.send();
+        
+</script>
+</html>
